@@ -1,0 +1,10 @@
+.git
+.gemini
+.vscode
+.config
+.cache
+.local
+.npm
+.codeoss
+__pycache__/
+*.pyc

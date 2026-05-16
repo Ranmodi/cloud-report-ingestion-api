@@ -1,0 +1,5 @@
+report_key|endpoint|display_name|observation|method|body_json
+account-base|https://api.example-provider.com/reports/account-base|Account Base|Demo report with account/advisor mapping.|GET|
+positions|https://api.example-provider.com/reports/positions|Positions|Demo report with portfolio positions.|GET|
+orders|https://api.example-provider.com/reports/orders|Orders|Demo report with trade/order history.|POST|{"startDate":"{start_date}","endDate":"{end_date}"}
+monthly-performance|https://api.example-provider.com/reports/monthly-performance|Monthly Performance|Demo report with monthly performance metrics.|POST|{"referenceMonth":"{prev_month}","referenceYear":"{prev_year}"}

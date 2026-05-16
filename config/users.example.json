@@ -1,0 +1,7 @@
+[
+  {
+    "username": "admin",
+    "password_hash": "generate-a-real-hash-locally",
+    "full_name": "Demo Admin"
+  }
+]

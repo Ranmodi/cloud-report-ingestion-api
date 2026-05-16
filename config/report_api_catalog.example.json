@@ -1,0 +1,27 @@
+{
+  "account-base": {
+    "description": "Demo account/advisor mapping report",
+    "method": "GET",
+    "base_url": "https://api.example-provider.com/reports",
+    "path": "/account-base",
+    "async": false,
+    "rate_limit": "60/min"
+  },
+  "orders": {
+    "description": "Demo orders report by date range",
+    "method": "POST",
+    "base_url": "https://api.example-provider.com/reports",
+    "path": "/orders",
+    "async": true,
+    "required_params": [
+      "startDate",
+      "endDate"
+    ],
+    "body_template": {
+      "startDate": "{startDate}",
+      "endDate": "{endDate}"
+    },
+    "webhook_name": "orders-report",
+    "rate_limit": "60/min"
+  }
+}

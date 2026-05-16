@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args:
+    - 'build'
+    - '-f'
+    - 'Dockerfile.portal'
+    - '-t'
+    - 'gcr.io/$PROJECT_ID/report-ingestion-portal:v3'
+    - '.'
+images:
+- 'gcr.io/$PROJECT_ID/report-ingestion-portal:v3'

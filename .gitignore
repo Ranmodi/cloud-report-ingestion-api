@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Secrets / env
+.env
+*.env
+secrets/
+credentials/
+service-account*.json
+client_secret*.json
+*.pem
+*.key
+users.json
+
+# Generated data
+/tmp/
+data/
+output/
+exports/
+downloads/
+logs/
+*.log
+
+# Excel/Office temp files
+~$*.xlsx
+~$*.xlsm
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
